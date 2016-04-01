@@ -1,9 +1,36 @@
+.searchtitle{
+  font-family: 'Indie Flower', cursive;
+}
+#region01::before{
+   content:'';
+   width:0;
+   height:200px;
+   display:inline-block;
+   position:relative;
+   vertical-align:middle;
+   background:#f00;
+   
+}
+#region01{
+  display: inline-block;
+  ertical-align: middle;
+}
+#for_random{
+  cursor:pointer;
+  visibility:visible;
+  font-family: 'Open Sans', sans-serif;
+  color:#555;
+}
 body{
   background-image: url(http://i.imgur.com/WyWrNny.gif);
 }
+#searchform{
+  margin: 0 auto; 
+  width:250px;
+}
 .searchinput{
   display: inline;
-  width:140px;
+  width:100%;
 }
 .searchclear{
   position: absolute;
